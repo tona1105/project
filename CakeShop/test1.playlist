@@ -1,0 +1,42 @@
+<Playlist Version="2.0">
+  <Rule Name="Includes" Match="Any">
+    <Rule Match="All">
+      <Property Name="Solution" />
+      <Rule Match="Any">
+        <Rule Match="All">
+          <Property Name="Project" Value="CakeShop.Tests" />
+          <Rule Match="Any">
+            <Rule Match="All">
+              <Property Name="Namespace" Value="CakeShop.CustomerTest" />
+              <Rule Match="Any">
+                <Rule Match="All">
+                  <Property Name="Class" Value="CustomerTest" />
+                  <Rule Match="Any">
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="CakeShop.CustomerTest.CustomerTest.PutProduct_ShouldReturnStatusCode" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="PutProduct_ShouldReturnStatusCode" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="CakeShop.CustomerTest.CustomerTest.GetCustomer_ShouldReturnAllCustomer" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="GetCustomer_ShouldReturnAllCustomer" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="CakeShop.CustomerTest.CustomerTest.PostProduct_ShouldReturnSameProduct" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="PostProduct_ShouldReturnSameProduct" />
+                      </Rule>
+                    </Rule>
+                  </Rule>
+                </Rule>
+              </Rule>
+            </Rule>
+          </Rule>
+        </Rule>
+      </Rule>
+    </Rule>
+  </Rule>
+</Playlist>
