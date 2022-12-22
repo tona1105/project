@@ -1,0 +1,69 @@
+{
+  "product": [
+    {
+      "img": "https://i.picsum.photos/id/263/536/354.jpg?hmac=Tn8MK-aH0rIHy83oIIGbmrSSJcJE2PI2kZBy8oNFO6s",
+      "name": "Sản phẩm 1 ",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur elit ut bibendum laoreet. Integer iaculis sem augue, efficitur rutrum lorem finibus eget. Etiam porttitor lectus a consequat scelerisque. Pellentesque id elit lobortis, cursus eros non, sollicitudin ligula. Aliquam tortor risus, maximus eu molestie dapibus,",
+      "oldPrice": "1200000",
+      "currentPrice": "10000",
+      "sold": "15",
+      "id": 1
+    },
+    {
+      "img": "https://i.picsum.photos/id/1070/536/354.jpg?hmac=p4brdNw_UWs81kcRjHoVFQzW_P-OFuuxUwS3Y2-2-QM",
+      "name": "Sản phẩm 2 ",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur elit ut bibendum laoreet. Integer iaculis sem augue, efficitur rutrum lorem finibus eget. Etiam porttitor lectus a consequat scelerisque. Pellentesque id elit lobortis, cursus eros non, sollicitudin ligula. Aliquam tortor risus, maximus eu molestie dapibus,",
+      "oldPrice": "1000000",
+      "currentPrice": "600000",
+      "sold": "15",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "img": "https://i.picsum.photos/id/334/536/354.jpg?hmac=Fqr45rgKed7wdrBcTfry45TVJTcjO1smvFBhSRsaeqY",
+      "name": "Sản phẩm 3",
+      "description": "In in augue sit amet mi posuere varius. Suspendisse feugiat pulvinar mauris vel lacinia. Quisque sodales cursus lorem, sed mattis tortor ullamcorper non. Vestibulum non tempus dolor, at interdum libero.",
+      "oldPrice": 1000000,
+      "currentPrice": 700000,
+      "sold": 20
+    },
+    {
+      "id": 4,
+      "img": "https://i.picsum.photos/id/967/536/354.jpg?hmac=tiSjXla6v9WshyaQYJPoDJ6Ow6b52ZVSZS1Q8r2FDxI",
+      "name": "Sản phẩm 4",
+      "description": "Pellentesque rutrum eget quam sed efficitur. Maecenas congue tellus vel mi scelerisque sodales. Ut quis nunc condimentum, pharetra magna quis, rutrum libero.",
+      "oldPrice": 1420000,
+      "currentPrice": 1000000,
+      "sold": 10
+    },
+    {
+      "img": "https://i.picsum.photos/id/731/536/354.jpg?hmac=UwYb-eGhfPZTbO0L-y7ZM_vBAaY44aRtTOghpJ0iUBw",
+      "name": "Sản phẩm 5",
+      "description": "Praesent lectus mauris, lacinia sit amet scelerisque ut, vehicula eget erat. Duis quis velit in mauris bibendum placerat sit amet nec dui. Donec iaculis metus ut arcu lobortis, et finibus massa molestie.",
+      "oldPrice": "800000",
+      "currentPrice": "600000",
+      "sold": "20",
+      "id": 5
+    }
+  ],
+  "account": [
+    {
+      "id": 1,
+      "name": "abc",
+      "username": "abc123",
+      "password": "123456",
+      "email": "acb@gmail.com",
+      "address": "abc",
+      "phone": "123456"
+    },
+    {
+      "name": "abc",
+      "username": "re123",
+      "password": "123456",
+      "email": "ekalkgf@gmail.com",
+      "address": "abc",
+      "phone": "12354567",
+      "id": 2
+    }
+  ]
+}

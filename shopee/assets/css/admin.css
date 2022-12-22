@@ -1,0 +1,32 @@
+.create-change {
+    text-align: center;
+    width: 800px;
+    margin: auto;
+    padding-bottom: 24px;
+}
+
+.create-change__title {
+    font-size: 1.6rem;
+}
+
+.create-change__form {
+    display: flex;
+    justify-content: flex-end;
+    margin: 8px 0;
+}
+
+.wrap-form {
+    font-size: 1.4rem;
+}
+
+.create-change__input{
+    width: 600px;
+    margin-left: 50px;
+    outline: none;
+}
+
+.create-change-btn {
+    font-size: 1.6rem;
+    padding-top: 12px;
+    border: none;
+}

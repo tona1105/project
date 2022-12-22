@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: "Helvetica Neue";
+    background-color: #f4f4f5;
+  }
+body > div {
+    margin: auto;
+}
+
+.btn{
+    display: inline-block;
+    padding: 12px 48px;
+    background-color: #333;
+    color:#fff;
+    border-radius: 20px;
+    min-width: 120px;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+.btn:hover{
+    opacity: 0.8;
+}
+
+.btn + .btn{
+    margin-left: 16px;
+}
+
+.btn--success{
+    background-color: #71be34;
+}
+
+.btn--warn{
+    background-color: #ffb703;
+}
+
+.btn--danger{
+    background-color: #ff623d;
+}
+
+.btn--disable{
+    opacity: 0.4 !important;
+    cursor: default;
+}
+
+.btn-big{
+    padding: 16px 60px;
+}
+
+.btn-small{
+    padding: 6px 48px;
+}
